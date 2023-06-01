@@ -16,7 +16,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .social-media-link {
@@ -31,54 +31,56 @@ h1 {
     width: 140px;
     text-align: center;
     display: flex;
-    flex-direction: row; /* Change flex-direction to row */
+    flex-direction: row;
     align-items: center;
-    padding: 10px 20px; /* Adjust the padding as needed */
+    padding: 10px 20px;
 }
 
 .social-media-link:hover {
     background-color: #555;
+    box-shadow: 0 0 10px #00ff00;
 }
 
 .social-media-link img {
     display: block;
     width: 30px;
     height: 30px;
-    margin-right: 10px; /* Add margin-right to create spacing between the logo and text */
+    margin-right: 10px;
     border-radius: 50%;
 }
+
 /* For mobile devices */
 @media (max-width: 767px) {
     h1 {
-      padding-top: 20px;
+        padding-top: 20px;
     }
-  
+
     .social-media-link {
-      font-size: 16px;
-      padding: 8px;
+        font-size: 16px;
+        padding: 8px;
     }
-  
+
     .social-media-link img {
-      width: 24px;
-      height: 24px;
-      margin-right: 8px;
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
     }
-  }
-  
-  /* For tablet devices */
-  @media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* For tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
     h1 {
-      padding-top: 30px;
+        padding-top: 30px;
     }
-  
+
     .social-media-link {
-      font-size: 20px;
-      padding: 12px;
+        font-size: 20px;
+        padding: 12px;
     }
-  
+
     .social-media-link img {
-      width: 36px;
-      height: 36px;
-      margin-right: 12px;
+        width: 36px;
+        height: 36px;
+        margin-right: 12px;
     }
-  }
+}
